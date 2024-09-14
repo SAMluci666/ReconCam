@@ -1,48 +1,30 @@
-# Face Recognition Attendance System
 
-The **Face Recognition Attendance System** is a smart and automated way of taking attendance using facial recognition technology. This project is designed to recognize faces and mark attendance in real-time. It also includes features like partial map rendering, location-based points, and image uploads, making it suitable for use in educational institutions, workplaces, or even events.
+# Face Attendance System App
+
+Welcome to the Face Attendance System App! This Python-based application utilizes the InsightFace library for face recognition and Streamlit for its frontend. Developed by Harsh Vaidya, this app provides a convenient way to manage attendance using facial recognition technology.
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Tech Stack](#tech-stack)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Project Structure](#project-structure)
-7. [Contributing](#contributing)
-8. [License](#license)
-9. [Contact](#contact)
 
-## Introduction
+- [Getting Started](#getting-started)
+- [Contributors](#contributors)
+- [Support](#support)
 
-This project is aimed at simplifying the process of taking attendance by automating it with the help of facial recognition technology. It leverages advanced computer vision techniques to detect and identify faces in real-time. The system stores attendance records securely and can be customized for different environments, such as schools, offices, or events.
+## Getting Started
 
-## Features
+To run this attendance system app, follow these steps:
 
-- **Real-time Face Recognition**: Uses OpenCV and InsightFace for accurate face detection and recognition.
-- **Smart Attendance System**: Automatically logs attendance when a face is recognized.
-- **Partial Map Rendering**: Offers location-based attendance tracking.
-  
-## Tech Stack
+1. **Clone the Repository**: Clone this repository to your local machine using the following command:
+   ```sh git clone https://github.com/harsh432004/attendance-system-app.
+   
+2.**Install Dependencies**: Navigate to the project directory and install the required dependencies by running:
+   pip install -r requirements.txt
+   
+3. **Run the Application:** Launch the application by executing the following command:
+   streamlit run app.py
+   
+**Access the App:** Once the application is running, open your web browser and navigate to http://localhost:8501 to access the Face Attendance System App.
 
-- **Facial Recognition**: OpenCV, InsightFace
-- **Caching**: RedisDB
-- **Deployment**: Streamlit (for web interface)
-
-## Installation
-
-### Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-- **Python 3.7+** installed
-- **Node.js** installed
-- **pip** (Python package installer)
-- **Git** installed
-
-### Steps
-
-1.Install Dependencies: Navigate to the project directory and install the required dependencies by running: pip install -r requirements.txt
-
-2.Run the Application: Launch the application by executing the following command: streamlit run app.py
-Access the App: Once the application is running, open your web browser and navigate to http://localhost:8501 to access the Face Attendance System App.
+**Contributors**
+Harsh Vaidya - Lead Developer
+Support
+For any inquiries or support regarding the Face Attendance System App, please contact **Harsh Vaidya** at harshvaidya432004@gmail.com.
